@@ -1,0 +1,9 @@
+name = "campus-equipment-booking-api"
+main = "src/worker.ts"
+compatibility_date = "2026-10-06"
+
+# If you create a Cloudflare D1 database, uncomment and fill the values below:
+[[d1_databases]]
+binding = "campus_equipment_booking_api_db"
+database_name = "campus-equipment-booking-api-db"
+database_id = "04918242-c16b-4b73-b248-833a68fd73f2"
